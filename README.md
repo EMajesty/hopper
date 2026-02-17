@@ -7,3 +7,5 @@
 [C4272](https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4272_F1.pdf)
 
 [OPA1652](https://www.ti.com/lit/ds/symlink/opa1652.pdf?ts=1771326899051)
+
+[OPA1632](https://www.ti.com/lit/ds/symlink/opa1632.pdf)
