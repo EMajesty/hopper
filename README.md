@@ -4,8 +4,6 @@
 
 [AN2867 - Oscillator design](https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8af-al-s-stm32-mcus-and-mpus-stmicroelectronics.pdf)
 
-[C4272](https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4272_F1.pdf)
+[PCM3060](https://www.ti.com/lit/ds/symlink/pcm3060.pdf?ts=1771415639587&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FPCM3060)
 
 [OPA1652](https://www.ti.com/lit/ds/symlink/opa1652.pdf?ts=1771326899051)
-
-[OPA1632](https://www.ti.com/lit/ds/symlink/opa1632.pdf)
