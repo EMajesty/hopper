@@ -18978,7 +18978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A"
 			(at 316.23 151.13 0)
 			(effects
 				(font
@@ -20425,7 +20425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A"
 			(at 316.23 175.26 0)
 			(effects
 				(font
@@ -21626,7 +21626,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A"
 			(at 295.91 175.26 0)
 			(effects
 				(font
@@ -22713,7 +22713,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A"
 			(at 356.87 151.13 0)
 			(effects
 				(font
@@ -26221,7 +26221,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A"
 			(at 336.55 151.13 0)
 			(effects
 				(font
@@ -28941,7 +28941,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A"
 			(at 295.91 151.13 0)
 			(effects
 				(font
@@ -30959,7 +30959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A"
 			(at 336.55 175.26 0)
 			(effects
 				(font
@@ -32958,7 +32958,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A"
 			(at 356.87 175.26 0)
 			(effects
 				(font

@@ -8,8 +8,11 @@
 
 [AMS1117](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
 
+[Omron G5V-2 relay](https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf)
+
 [AN4938 - Hardware development](https://www.st.com/resource/en/application_note/an4938-getting-started-with-stm32h74xig-and-stm32h75xig-mcu-hardware-development-stmicroelectronics.pdf)
 
 [AN2867 - Oscillator design](https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8af-al-s-stm32-mcus-and-mpus-stmicroelectronics.pdf)
 
-[Omron G5V-2 relay](https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf)
+[AN2606 - Memory boot](https://www.st.com/resource/en/application_note/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf)
+
