@@ -12,6 +12,8 @@
 
 [Crystal](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588976059073646592)
 
+[Tayda 9mm pot](https://www.taydaelectronics.com/datasheets/A-1859.pdf)
+
 [AN4938 - Hardware development](https://www.st.com/resource/en/application_note/an4938-getting-started-with-stm32h74xig-and-stm32h75xig-mcu-hardware-development-stmicroelectronics.pdf)
 
 [AN2867 - Oscillator design](https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8af-al-s-stm32-mcus-and-mpus-stmicroelectronics.pdf)

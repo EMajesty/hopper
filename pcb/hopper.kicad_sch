@@ -12200,6 +12200,18 @@
 		(uuid 68f95481-4b32-47fa-87b6-aca8e837c1ec)
 	)
 	(rectangle
+		(start 182.88 13.97)
+		(end 276.86 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88c7f16e-57f5-4a14-9a84-e80028d1b272)
+	)
+	(rectangle
 		(start 365.76 201.93)
 		(end 468.63 290.83)
 		(stroke
@@ -12350,6 +12362,18 @@
 			)
 		)
 		(uuid "d86a48e4-e0ee-4db7-b90c-18539574fb9d")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 191.516 20.066 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "e86c9e94-659c-4073-8bd3-fb5f7e54c2bf")
 	)
 	(junction
 		(at 476.25 83.82)
@@ -12544,7 +12568,7 @@
 		(uuid "31b2b209-04b7-4ac6-a0c1-cbc564b760d6")
 	)
 	(junction
-		(at 193.04 68.58)
+		(at 193.04 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33f15834-e5c2-4a61-8b61-7e065eb2358b")
@@ -13269,7 +13293,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 35.56) (xy 234.95 35.56)
+			(xy 215.9 40.64) (xy 234.95 40.64)
 		)
 		(stroke
 			(width 0)
@@ -13489,7 +13513,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 38.1) (xy 226.06 38.1)
+			(xy 215.9 43.18) (xy 226.06 43.18)
 		)
 		(stroke
 			(width 0)
@@ -14199,7 +14223,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 68.58) (xy 200.66 68.58)
+			(xy 193.04 73.66) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14579,7 +14603,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 43.18) (xy 215.9 45.72)
+			(xy 215.9 48.26) (xy 215.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -15559,7 +15583,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 35.56) (xy 234.95 38.1)
+			(xy 234.95 40.64) (xy 234.95 43.18)
 		)
 		(stroke
 			(width 0)
@@ -15569,7 +15593,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 48.26) (xy 215.9 50.8)
+			(xy 215.9 53.34) (xy 215.9 55.88)
 		)
 		(stroke
 			(width 0)
@@ -16079,7 +16103,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 30.48) (xy 222.25 30.48)
+			(xy 215.9 35.56) (xy 222.25 35.56)
 		)
 		(stroke
 			(width 0)
@@ -16765,7 +16789,7 @@
 	)
 	(global_label "USB DM"
 		(shape input)
-		(at 262.89 36.83 0)
+		(at 262.89 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16775,7 +16799,7 @@
 		)
 		(uuid "23f08b51-d89d-4199-9218-707463906cce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.72 36.83 0)
+			(at 272.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17293,7 +17317,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 252.73 36.83 180)
+		(at 252.73 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17303,7 +17327,7 @@
 		)
 		(uuid "42dea72f-3b7f-478c-8f40-3cc0e4708dea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.5566 36.83 0)
+			(at 247.5566 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17315,7 +17339,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 215.9 49.53 0)
+		(at 215.9 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17325,7 +17349,7 @@
 		)
 		(uuid "430a641c-66ce-402a-9d81-8a7c64222c6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.0734 49.53 0)
+			(at 221.0734 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17535,7 +17559,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 215.9 44.45 0)
+		(at 215.9 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17545,7 +17569,7 @@
 		)
 		(uuid "5c6aeaa3-fe5d-4def-85b1-e482c7ceb769")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.0734 44.45 0)
+			(at 221.0734 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17689,7 +17713,7 @@
 	)
 	(global_label "USB DP"
 		(shape input)
-		(at 262.89 39.37 0)
+		(at 262.89 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17699,7 +17723,7 @@
 		)
 		(uuid "74bccd49-1bd3-4af4-ba03-ac17f46be516")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.5386 39.37 0)
+			(at 272.5386 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18635,7 +18659,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 252.73 39.37 180)
+		(at 252.73 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18645,7 +18669,7 @@
 		)
 		(uuid "d7b74658-dbb2-4ec8-bfc8-d54f7afeef93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.5566 39.37 0)
+			(at 247.5566 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19263,7 +19287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02451b0f-8b20-4589-a839-11ca82d78d0b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 318.77 175.26 0)
 			(effects
 				(font
@@ -19313,7 +19337,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19398,7 +19422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b2a179-2bd0-425d-ab3a-d014d27ade22")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR076"
 			(at 452.12 177.8 0)
 			(effects
 				(font
@@ -19449,7 +19473,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR070")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -19457,7 +19481,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 222.25 30.48 0)
+		(at 222.25 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19465,8 +19489,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "051acfec-d974-4f1c-a658-63988bda464e")
-		(property "Reference" "#PWR098"
-			(at 222.25 34.29 0)
+		(property "Reference" "#PWR021"
+			(at 222.25 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19475,7 +19499,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 222.25 25.4 0)
+			(at 222.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19483,7 +19507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 30.48 0)
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19492,7 +19516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 30.48 0)
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19501,7 +19525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 222.25 30.48 0)
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19515,7 +19539,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR098")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -19601,7 +19625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05b6846a-bd78-40cc-8e5e-90d4d92e14b4")
-		(property "Reference" "R29"
+		(property "Reference" "R31"
 			(at 527.05 80.0099 0)
 			(effects
 				(font
@@ -19655,7 +19679,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R29")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -19741,7 +19765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06d24395-010b-4077-bdab-7a991fa249ba")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 504.19 250.19 90)
 			(effects
 				(font
@@ -19793,7 +19817,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -19875,7 +19899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a980951-b9bd-4f3e-b2d3-9d62f1b0217c")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR095"
 			(at 543.56 236.22 0)
 			(effects
 				(font
@@ -19925,7 +19949,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR089")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -20006,7 +20030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f7f33a6-e149-49c5-b709-64953c8722af")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR057"
 			(at 359.41 185.42 0)
 			(effects
 				(font
@@ -20056,7 +20080,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR051")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -20142,7 +20166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fada521-3f44-40f4-894d-e8fdb88c0585")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR031"
 			(at 298.45 185.42 0)
 			(effects
 				(font
@@ -20192,7 +20216,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -20208,7 +20232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b73c90-5531-4656-b97f-44ac1a0b0ff2")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR073"
 			(at 422.91 217.17 0)
 			(effects
 				(font
@@ -20258,7 +20282,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR067")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -20343,7 +20367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14fed64f-81a1-4bc1-88d0-8b3e9fc89e00")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 318.77 151.13 0)
 			(effects
 				(font
@@ -20393,7 +20417,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -20477,7 +20501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19505eb2-29b4-42a3-a95f-da093ece6627")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 408.94 370.8399 0)
 			(effects
 				(font
@@ -20531,7 +20555,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -20612,7 +20636,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 44.45 0)
+		(at 257.81 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20620,8 +20644,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bbbba44-3e59-48d1-9aaa-78bfa86b4b09")
-		(property "Reference" "#PWR0103"
-			(at 257.81 50.8 0)
+		(property "Reference" "#PWR025"
+			(at 257.81 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20630,7 +20654,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 49.53 0)
+			(at 257.81 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20638,7 +20662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 44.45 0)
+			(at 257.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20647,7 +20671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 44.45 0)
+			(at 257.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,7 +20680,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 44.45 0)
+			(at 257.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20670,7 +20694,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR0103")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -20686,7 +20710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cd49e83-3236-4efc-9b00-67bb673ae140")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR081"
 			(at 487.68 177.8 0)
 			(effects
 				(font
@@ -20737,7 +20761,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR075")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -20753,7 +20777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f3d0cd5-3c21-481e-950a-74a865766e9b")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 434.34 350.52 90)
 			(effects
 				(font
@@ -20805,7 +20829,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -20909,7 +20933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fd1eae4-ad0f-46dc-934b-85109661ea8c")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR086"
 			(at 515.62 177.8 0)
 			(effects
 				(font
@@ -20960,7 +20984,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR080")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -21064,7 +21088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "232946b2-1713-402f-a232-a2c91f8763b7")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR060"
 			(at 374.65 80.01 0)
 			(effects
 				(font
@@ -21114,7 +21138,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR054")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -21196,7 +21220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24133452-b144-45e1-a867-a6d83e2dba09")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR062"
 			(at 374.65 101.6 0)
 			(effects
 				(font
@@ -21246,7 +21270,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR056")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -21397,7 +21421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26012acf-fbc5-41fc-a6f5-77db4c716046")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 553.72 253.9999 0)
 			(effects
 				(font
@@ -21451,7 +21475,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -22133,7 +22157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29577c45-0839-48fd-ba79-201f7d38da02")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 516.89 302.26 90)
 			(effects
 				(font
@@ -22185,7 +22209,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -22336,7 +22360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2acb7b24-8ba0-43ce-80a9-e627f3831917")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR079"
 			(at 469.9 177.8 0)
 			(effects
 				(font
@@ -22387,7 +22411,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR073")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -22403,7 +22427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0f8148-e302-426a-9ebf-c8461206d0af")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR096"
 			(at 547.37 223.52 0)
 			(effects
 				(font
@@ -22453,7 +22477,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR090")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -22531,7 +22555,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 200.66 45.72 0)
+		(at 200.66 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22539,8 +22563,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d3b7199-0123-4108-ab5b-fd6cfe45636d")
-		(property "Reference" "J10"
-			(at 200.66 22.86 0)
+		(property "Reference" "J2"
+			(at 200.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22548,7 +22572,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 200.66 25.4 0)
+			(at 200.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22556,7 +22580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 45.72 0)
+			(at 204.47 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22565,7 +22589,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 204.47 45.72 0)
+			(at 204.47 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22574,7 +22598,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 200.66 45.72 0)
+			(at 200.66 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22636,7 +22660,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -22652,7 +22676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d4b8da8-2db5-4b70-89c9-42ca6e503964")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 525.78 212.09 0)
 			(effects
 				(font
@@ -22722,7 +22746,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -22738,7 +22762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d787fd8-1d53-4183-8580-d2730ec54b18")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 345.44 341.6299 0)
 			(effects
 				(font
@@ -22792,7 +22816,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -22808,7 +22832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f1b0ced-2fb7-45d0-93ee-f1b5d8501677")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR067"
 			(at 401.32 238.76 0)
 			(effects
 				(font
@@ -22859,7 +22883,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR061")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -22945,7 +22969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30292c4a-89f6-437f-b5dc-ebf81f5a4f2a")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 415.29 389.8899 0)
 			(effects
 				(font
@@ -22999,7 +23023,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -23308,7 +23332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36e40482-6114-4416-8f25-fb97dd41cdcf")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 298.45 151.13 0)
 			(effects
 				(font
@@ -23358,7 +23382,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -23447,7 +23471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "382476f0-ecc6-4087-98e1-f49008023d91")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 556.26 68.58 0)
 			(effects
 				(font
@@ -23553,7 +23577,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -23569,7 +23593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bb219f-7507-483f-8835-b411f9db2638")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 293.37 106.68 0)
 			(effects
 				(font
@@ -23619,7 +23643,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -23705,7 +23729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b729cec-6b63-498f-9c84-aa6f7e729fbb")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR089"
 			(at 528.32 320.04 0)
 			(effects
 				(font
@@ -23755,7 +23779,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR083")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -23910,7 +23934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c89cb8e-4922-490f-bda8-1c7c7c0984f8")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 320.04 91.4399 0)
 			(effects
 				(font
@@ -24018,7 +24042,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U4")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -24238,7 +24262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e94d595-7678-4042-97ad-91e65b9a29e8")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR056"
 			(at 359.41 175.26 0)
 			(effects
 				(font
@@ -24288,7 +24312,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR050")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -24374,7 +24398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42296220-731a-4dce-a10d-40a3308a8700")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 382.27 26.67 0)
 			(effects
 				(font
@@ -24445,7 +24469,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -24535,7 +24559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46240f18-c271-4b91-820f-006f769c03e2")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 332.74 91.4399 0)
 			(effects
 				(font
@@ -24643,7 +24667,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U5")
+					(reference "U6")
 					(unit 3)
 				)
 			)
@@ -24659,7 +24683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46240f18-c271-4b91-820f-006f769c03e3")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 427.99 314.96 0)
 			(effects
 				(font
@@ -24765,7 +24789,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -24781,7 +24805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b571b4-4d6d-43d3-9210-d0983d28ebc0")
-		(property "Reference" "R31"
+		(property "Reference" "R33"
 			(at 549.91 222.2499 0)
 			(effects
 				(font
@@ -24835,7 +24859,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R31")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -24851,7 +24875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4979737b-8ed8-498c-bfa0-fb88e7ac2ca3")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 331.47 358.14 0)
 			(effects
 				(font
@@ -24957,7 +24981,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -25043,7 +25067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ae0b48c-6db2-4fd2-8d74-c0ca76770e38")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 356.87 358.14 0)
 			(effects
 				(font
@@ -25149,7 +25173,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U3")
+					(reference "U4")
 					(unit 2)
 				)
 			)
@@ -25235,7 +25259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb3da94-57f3-46fc-b7fd-03d083a1a213")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR087"
 			(at 515.62 267.97 0)
 			(effects
 				(font
@@ -25285,7 +25309,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR081")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -25450,7 +25474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eaceab6-f776-4ad5-9537-eab0c083ec12")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR078"
 			(at 469.9 38.1 0)
 			(effects
 				(font
@@ -25500,7 +25524,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR072")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -25516,7 +25540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ec3353d-ff63-4e23-ae33-215c52891a05")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR080"
 			(at 476.25 38.1 0)
 			(effects
 				(font
@@ -25566,7 +25590,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR074")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -25582,7 +25606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513e7a51-e80e-4b40-80b6-a71b85eaffca")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 298.45 175.26 0)
 			(effects
 				(font
@@ -25632,7 +25656,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -25717,7 +25741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55d30d59-2a5c-4df7-8421-380e309cf3f2")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0100"
 			(at 551.18 177.8 0)
 			(effects
 				(font
@@ -25768,7 +25792,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR094")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -25784,7 +25808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56ddac8d-c13f-4d90-8723-3e0c1dc0b0e1")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 408.94 325.1199 0)
 			(effects
 				(font
@@ -25838,7 +25862,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -26127,7 +26151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a8a3902-da8a-4fb1-9615-9d60cc7e54c2")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 482.6 349.8849 0)
 			(effects
 				(font
@@ -26145,7 +26169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
 			(at 490.22 351.79 0)
 			(effects
 				(font
@@ -26184,7 +26208,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -26200,7 +26224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b2ad4bf-6623-44ad-895f-35df470e8244")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 496.57 27.94 90)
 			(effects
 				(font
@@ -26252,7 +26276,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -26269,7 +26293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6ac10f-8c88-4f0d-b1b6-1fa0ec53cb6a")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 534.67 349.8849 0)
 			(effects
 				(font
@@ -26287,7 +26311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
 			(at 542.29 351.79 0)
 			(effects
 				(font
@@ -26326,7 +26350,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -26342,7 +26366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cab99e5-4381-4874-b581-fe2619f319e6")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR075"
 			(at 438.15 227.33 0)
 			(effects
 				(font
@@ -26392,7 +26416,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR069")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -26408,7 +26432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d444ded-b110-4482-a864-fec7f63bc751")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 407.67 38.0999 0)
 			(effects
 				(font
@@ -26462,7 +26486,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -26698,7 +26722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60449e2c-3e1f-4aab-8c4f-4db18755609c")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 294.64 91.4399 0)
 			(effects
 				(font
@@ -26806,7 +26830,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U2")
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -27237,7 +27261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67a668dd-6d8b-4932-ab37-421af02fa7e5")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR055"
 			(at 359.41 161.29 0)
 			(effects
 				(font
@@ -27287,7 +27311,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR049")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -27303,7 +27327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683ab3a6-a17b-43b7-9d9e-bdaf493d07a2")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR093"
 			(at 533.4 177.8 0)
 			(effects
 				(font
@@ -27354,7 +27378,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR087")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -27507,7 +27531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "695dea65-0894-4306-a0cd-cadbfce9b0ee")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR099"
 			(at 549.91 49.53 0)
 			(effects
 				(font
@@ -27557,7 +27581,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR093")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -27573,7 +27597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69b1164d-654c-40dc-aa87-4f5c07692634")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 407.67 45.7199 0)
 			(effects
 				(font
@@ -27627,7 +27651,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -27643,7 +27667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b2b8a48-2faf-4999-994c-06625ac9eda8")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR091"
 			(at 529.59 71.12 0)
 			(effects
 				(font
@@ -27693,7 +27717,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR085")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -27709,7 +27733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b99a01e-21fb-4c03-aa67-821a42e04c4b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 320.04 49.53 0)
 			(effects
 				(font
@@ -27759,7 +27783,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -27775,7 +27799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f58dd8c-058d-4ce1-b90c-39ef83a0a247")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 397.51 45.7199 0)
 			(effects
 				(font
@@ -27829,7 +27853,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -27912,7 +27936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f85d96f-ba63-4b06-9944-78853e9428ff")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 339.09 185.42 0)
 			(effects
 				(font
@@ -27962,7 +27986,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -27970,7 +27994,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 257.81 36.83 0)
+		(at 257.81 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27978,8 +28002,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ffb010b-29f3-4be2-8e62-09e4e177f613")
-		(property "Reference" "U12"
-			(at 259.4611 29.21 0)
+		(property "Reference" "U2"
+			(at 259.4611 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27988,7 +28012,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 259.4611 31.75 0)
+			(at 259.4611 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27997,7 +28021,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 259.08 43.18 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28008,7 +28032,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 259.08 45.085 0)
+			(at 259.08 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28018,7 +28042,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 257.81 36.83 0)
+			(at 257.81 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28047,7 +28071,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U12")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -28136,7 +28160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7327fe77-48f6-46d2-b7f2-707ef1dc4d09")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0101"
 			(at 551.18 255.27 0)
 			(effects
 				(font
@@ -28186,7 +28210,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR095")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -28201,7 +28225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "744a61bb-9095-4dc1-9c10-3c28d5a09a03")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR082"
 			(at 488.95 38.1 0)
 			(effects
 				(font
@@ -28251,7 +28275,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR076")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -28267,7 +28291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "749bf19d-ed66-449d-8ddc-68f2b161d014")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR048"
 			(at 339.09 175.26 0)
 			(effects
 				(font
@@ -28317,7 +28341,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR042")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -28403,7 +28427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75784ac0-08d1-4c0b-817e-cb182723cdeb")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 496.57 237.49 0)
 			(effects
 				(font
@@ -28464,7 +28488,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -28550,7 +28574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79fa553c-bc85-4995-8108-61634e08976d")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR094"
 			(at 537.21 255.27 0)
 			(effects
 				(font
@@ -28600,7 +28624,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR088")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -28616,7 +28640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad6653b-7432-42ac-b584-6e685153e369")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR092"
 			(at 529.59 91.44 0)
 			(effects
 				(font
@@ -28666,7 +28690,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR086")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -28681,7 +28705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c6f9268-9d09-4534-affb-3c2aee59f7a7")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR097"
 			(at 547.37 350.52 0)
 			(effects
 				(font
@@ -28731,7 +28755,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR091")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -28747,7 +28771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d51b5e0-505b-4384-8ac7-900ae5cefdac")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 444.5 377.19 90)
 			(effects
 				(font
@@ -28799,7 +28823,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -28955,7 +28979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8058ab1b-b62a-43c1-8324-66353a003d41")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 344.17 387.3499 0)
 			(effects
 				(font
@@ -29009,7 +29033,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -29095,7 +29119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82175591-bf30-4342-9e9c-66a51359e857")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 294.005 40.64 0)
 			(effects
 				(font
@@ -29111,7 +29135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 293.37 45.72 0)
 			(effects
 				(font
@@ -29147,7 +29171,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -29163,7 +29187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8380f17f-f177-4a88-bed4-b6f1ad8abc11")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR052"
 			(at 351.79 101.6 0)
 			(effects
 				(font
@@ -29213,7 +29237,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -29229,7 +29253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84eed3c1-e5e0-4d84-95df-832123f6b0ab")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR068"
 			(at 401.32 243.84 0)
 			(effects
 				(font
@@ -29280,7 +29304,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR062")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -29366,7 +29390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887ef83c-ac38-4d1b-914a-dc29a747ee20")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 318.77 88.9 0)
 			(effects
 				(font
@@ -29416,7 +29440,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -29565,7 +29589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b9e9ed1-88a2-4d7c-91e8-46af8ba20ba0")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR061"
 			(at 374.65 90.17 0)
 			(effects
 				(font
@@ -29615,7 +29639,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR055")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -29631,7 +29655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c46f251-9616-45be-90f3-0b340b8e3dfe")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 542.29 269.24 0)
 			(effects
 				(font
@@ -29692,7 +29716,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -29708,7 +29732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c95e6b1-7a89-4d30-9b1f-bf345621ddee")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR085"
 			(at 514.35 332.74 0)
 			(effects
 				(font
@@ -29758,7 +29782,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR079")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -29844,7 +29868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fe122d1-22f4-4696-bd12-5b37b1620ba6")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR077"
 			(at 458.47 48.26 0)
 			(effects
 				(font
@@ -29894,7 +29918,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR071")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -30182,7 +30206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949e6e03-bf9e-4bda-92fe-1b9874beaff0")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR070"
 			(at 416.56 57.15 0)
 			(effects
 				(font
@@ -30232,7 +30256,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR064")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -30248,7 +30272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95acd398-e338-45c3-a963-47453c11b108")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR064"
 			(at 382.27 58.42 0)
 			(effects
 				(font
@@ -30298,7 +30322,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR058")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -30383,7 +30407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "986bb6e1-2332-47a6-bc9e-cc7cf897e1f1")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR084"
 			(at 495.3 360.68 0)
 			(effects
 				(font
@@ -30433,7 +30457,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR078")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -30448,7 +30472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a7b1935-1f7a-43f6-9c49-dabe0937453d")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR083"
 			(at 495.3 350.52 0)
 			(effects
 				(font
@@ -30498,7 +30522,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR077")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -30513,7 +30537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cc866f7-ac5c-4f45-abb4-c8a1656dc30e")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 365.76 375.92 90)
 			(effects
 				(font
@@ -30565,7 +30589,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -30856,7 +30880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a359e885-9941-48a9-870a-2b8a17727475")
-		(property "Reference" "R27"
+		(property "Reference" "R29"
 			(at 527.05 245.11 90)
 			(effects
 				(font
@@ -30908,7 +30932,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -30924,7 +30948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a608257b-6b24-45db-8a55-963844b36817")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 317.5 322.5799 0)
 			(effects
 				(font
@@ -30978,7 +31002,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -30994,7 +31018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa0c7b42-fc93-49a6-9d57-bc548ae42e3e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 306.07 106.68 0)
 			(effects
 				(font
@@ -31044,7 +31068,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -31060,7 +31084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa60526b-bff5-4fce-a87c-14586571e3de")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 318.77 185.42 0)
 			(effects
 				(font
@@ -31110,7 +31134,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -31196,7 +31220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac029692-53f5-4b53-9bfc-fa27641f16aa")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 425.0533 223.52 0)
 			(effects
 				(font
@@ -31328,7 +31352,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -31344,7 +31368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac68d501-1b21-4d25-9b1f-ff902545ef7a")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR088"
 			(at 528.32 298.45 0)
 			(effects
 				(font
@@ -31394,7 +31418,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR082")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -31410,7 +31434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b01c345e-0222-4b67-a5f3-05504d1f4a6f")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR090"
 			(at 529.59 39.37 0)
 			(effects
 				(font
@@ -31460,7 +31484,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR084")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -31468,7 +31492,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 45.72 0)
+		(at 234.95 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31476,8 +31500,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1485d8b-9e5a-44cc-a808-2ede897f19b1")
-		(property "Reference" "#PWR0101"
-			(at 234.95 52.07 0)
+		(property "Reference" "#PWR023"
+			(at 234.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31486,7 +31510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 50.8 0)
+			(at 234.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31494,7 +31518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 45.72 0)
+			(at 234.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31503,7 +31527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 45.72 0)
+			(at 234.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31512,7 +31536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 45.72 0)
+			(at 234.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31526,7 +31550,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR0101")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -31543,7 +31567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2581063-0caa-4754-91a4-c7aa733719ac")
-		(property "Reference" "J4"
+		(property "Reference" "J8"
 			(at 534.67 339.7249 0)
 			(effects
 				(font
@@ -31561,7 +31585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
 			(at 542.29 341.63 0)
 			(effects
 				(font
@@ -31600,7 +31624,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "J4")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -31616,7 +31640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b29a1210-2343-4eb6-b457-1547a600a1c5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 300.99 49.53 0)
 			(effects
 				(font
@@ -31666,7 +31690,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -31682,7 +31706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b35e7327-2510-4053-8535-d99aaa39a2a3")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR026"
 			(at 293.37 88.9 0)
 			(effects
 				(font
@@ -31732,7 +31756,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR020")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -31748,7 +31772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b465dee7-ee60-4c40-83ea-7dabe590440d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR053"
 			(at 351.79 111.76 0)
 			(effects
 				(font
@@ -31798,7 +31822,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR047")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -32020,15 +32044,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 41.91 180)
+		(at 226.06 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b87f0994-7193-49cf-9672-f3afc471bff1")
-		(property "Reference" "R33"
-			(at 228.6 40.6399 0)
+		(property "Reference" "R6"
+			(at 228.6 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32037,7 +32061,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 228.6 43.1799 0)
+			(at 228.6 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32046,7 +32070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.838 41.91 90)
+			(at 227.838 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32055,7 +32079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 41.91 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32064,7 +32088,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 41.91 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32081,7 +32105,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R33")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -32253,7 +32277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd370b35-98a8-4503-9b57-fbf23b41044a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 300.99 54.61 0)
 			(effects
 				(font
@@ -32303,7 +32327,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -32389,7 +32413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be361484-753c-40c1-a683-081a7826936f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR065"
 			(at 398.78 177.8 0)
 			(effects
 				(font
@@ -32440,7 +32464,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR059")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -32518,7 +32542,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 45.72 0)
+		(at 226.06 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32526,8 +32550,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf79e452-a9b5-43b0-b7c2-6b42134f5f00")
-		(property "Reference" "#PWR0100"
-			(at 226.06 52.07 0)
+		(property "Reference" "#PWR022"
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32536,7 +32560,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 50.8 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32544,7 +32568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 45.72 0)
+			(at 226.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32553,7 +32577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 45.72 0)
+			(at 226.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32562,7 +32586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 45.72 0)
+			(at 226.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32576,7 +32600,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR0100")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -32730,7 +32754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c28b6760-6bf2-46ae-bf25-5c594571e92c")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 535.178 223.774 90)
 			(effects
 				(font
@@ -32782,7 +32806,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -32797,7 +32821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2ac3e47-aefd-4685-ac07-539d76da9df7")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR098"
 			(at 547.37 360.68 0)
 			(effects
 				(font
@@ -32847,7 +32871,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR092")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -33145,7 +33169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a9c032-6d1b-49c3-9c21-791ed24f7fce")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 318.77 161.29 0)
 			(effects
 				(font
@@ -33195,7 +33219,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -33280,7 +33304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f7c946-bcaa-43a4-8d43-0a4353c3fb6c")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 501.65 213.36 90)
 			(effects
 				(font
@@ -33332,7 +33356,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -33348,7 +33372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca186628-034b-4e79-904a-02066db2099d")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR072"
 			(at 417.83 217.17 0)
 			(effects
 				(font
@@ -33398,7 +33422,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR066")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -33484,7 +33508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccd70e34-18ee-4eaa-a481-8579a8064ea9")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 345.44 49.53 0)
 			(effects
 				(font
@@ -33534,7 +33558,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -33690,7 +33714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d023b367-47ef-4c1c-9e4a-449d26be8cfe")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR066"
 			(at 402.59 227.33 0)
 			(effects
 				(font
@@ -33740,7 +33764,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR060")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -33896,7 +33920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3bfc170-b316-4c88-a592-073025bf44e8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR045"
 			(at 331.47 106.68 0)
 			(effects
 				(font
@@ -33946,7 +33970,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -34032,7 +34056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d75be9ca-c056-48d1-b238-4a043dc73c3a")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR071"
 			(at 416.56 177.8 0)
 			(effects
 				(font
@@ -34083,7 +34107,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR065")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -34175,7 +34199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d92c3df5-8946-4ec0-b464-069f5e21efa2")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR058"
 			(at 363.22 38.1 0)
 			(effects
 				(font
@@ -34225,7 +34249,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR052")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -34241,7 +34265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d95fa924-67aa-403d-b5fd-889cd36789d6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR044"
 			(at 331.47 88.9 0)
 			(effects
 				(font
@@ -34291,7 +34315,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -34307,7 +34331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dab33c26-3c56-4338-ab1f-bd1e5adc74f5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 318.77 106.68 0)
 			(effects
 				(font
@@ -34357,7 +34381,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -34442,7 +34466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db534d5d-623e-4d07-b684-bd3ad4e1d7e5")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 306.07 88.9 0)
 			(effects
 				(font
@@ -34492,7 +34516,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -34657,7 +34681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd5325d-03f9-4546-9a95-04f53aaced0b")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 307.34 91.4399 0)
 			(effects
 				(font
@@ -34765,7 +34789,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U3")
+					(reference "U4")
 					(unit 3)
 				)
 			)
@@ -35073,7 +35097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3194805-1a42-4c44-b321-830e3d4dbca9")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 365.76 330.2 90)
 			(effects
 				(font
@@ -35125,7 +35149,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -35141,7 +35165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3e78ddf-52a6-4a86-b440-5be0a6950a54")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR051"
 			(at 351.79 90.17 0)
 			(effects
 				(font
@@ -35191,7 +35215,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR045")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -35276,7 +35300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4a2c262-17cd-4929-bf0c-4991e0b44fe1")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 317.5 368.2999 0)
 			(effects
 				(font
@@ -35330,7 +35354,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -35346,7 +35370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e531020a-df0b-4667-a895-e16c5114ca49")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR074"
 			(at 434.34 177.8 0)
 			(effects
 				(font
@@ -35397,7 +35421,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR068")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -35413,7 +35437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5be5bef-1ff4-4efa-8c17-271651b73708")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 549.91 29.21 0)
 			(effects
 				(font
@@ -35468,7 +35492,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -35476,7 +35500,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 257.81 31.75 0)
+		(at 257.81 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35484,8 +35508,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d5105d-5c62-4213-969a-37fc620d0555")
-		(property "Reference" "#PWR0102"
-			(at 257.81 35.56 0)
+		(property "Reference" "#PWR024"
+			(at 257.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35494,7 +35518,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 257.81 26.67 0)
+			(at 257.81 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35502,7 +35526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 31.75 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35511,7 +35535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 31.75 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35520,7 +35544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 257.81 31.75 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35534,7 +35558,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR0102")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -35550,7 +35574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea2df0a7-a549-4d2e-bd12-fcd00799beaa")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 415.29 344.1699 0)
 			(effects
 				(font
@@ -35604,7 +35628,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -35620,7 +35644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ead14c9f-0c6a-412c-95ad-b3c4604c7b82")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 434.34 396.24 90)
 			(effects
 				(font
@@ -35672,7 +35696,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -35688,7 +35712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ead606e6-1ee0-450f-b2ed-4e115fb4e8e5")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR047"
 			(at 339.09 161.29 0)
 			(effects
 				(font
@@ -35738,7 +35762,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR041")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -35754,7 +35778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff1a4b1-e63f-4a77-be91-0395067fa740")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 339.09 151.13 0)
 			(effects
 				(font
@@ -35804,7 +35828,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -35890,7 +35914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b59da5-f955-4125-85db-eaf484f09792")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 458.47 27.94 0)
 			(effects
 				(font
@@ -35945,7 +35969,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -35953,15 +35977,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 41.91 180)
+		(at 234.95 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f13301c1-e652-4843-ba9a-17c9a6ae5a8f")
-		(property "Reference" "R34"
-			(at 237.49 40.6399 0)
+		(property "Reference" "R7"
+			(at 237.49 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35970,7 +35994,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 237.49 43.1799 0)
+			(at 237.49 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35979,7 +36003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.728 41.91 90)
+			(at 236.728 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35988,7 +36012,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 41.91 0)
+			(at 234.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35997,7 +36021,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 41.91 0)
+			(at 234.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36014,7 +36038,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R34")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -36096,7 +36120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1f704d8-2b55-4614-851f-1c4eadc5c294")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR059"
 			(at 363.22 48.26 0)
 			(effects
 				(font
@@ -36146,7 +36170,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR053")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -36162,7 +36186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f21ab565-5a1b-47cf-a07d-7282899d516f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 298.45 161.29 0)
 			(effects
 				(font
@@ -36212,7 +36236,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -36365,7 +36389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f461105b-497b-4920-a227-cb2d2f123718")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 332.74 312.42 0)
 			(effects
 				(font
@@ -36471,7 +36495,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -36624,7 +36648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f625ef04-a37c-4efc-800a-84ce35ec830c")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 427.736 361.188 0)
 			(effects
 				(font
@@ -36730,7 +36754,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U5")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -36912,7 +36936,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 140.97 283.21 0)
 			(effects
 				(font
@@ -36988,7 +37012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f75b667d-09b6-433b-b170-9d0aabe0eb15")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR063"
 			(at 374.65 111.76 0)
 			(effects
 				(font
@@ -37038,7 +37062,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR057")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -37054,7 +37078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ded669-34fe-4e8a-966c-2cb63871051f")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0103"
 			(at 566.42 332.74 0)
 			(effects
 				(font
@@ -37104,7 +37128,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR097")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -37190,7 +37214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f81cbf59-6e98-4b12-8b69-6ecaa9791866")
-		(property "Reference" "R28"
+		(property "Reference" "R30"
 			(at 527.05 69.8499 0)
 			(effects
 				(font
@@ -37244,7 +37268,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -37330,7 +37354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9f02e30-b505-458a-8bae-600c4ff6e322")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR043"
 			(at 320.04 59.69 0)
 			(effects
 				(font
@@ -37380,7 +37404,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -37397,7 +37421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "facd398d-a6c1-4895-9f78-573aa21aad00")
-		(property "Reference" "J9"
+		(property "Reference" "J4"
 			(at 482.6 339.7249 0)
 			(effects
 				(font
@@ -37415,7 +37439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
 			(at 490.22 341.63 0)
 			(effects
 				(font
@@ -37454,7 +37478,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "J9")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -37539,7 +37563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcce9039-ade7-4ba9-bb4b-378077f90a3e")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR069"
 			(at 415.29 288.29 0)
 			(effects
 				(font
@@ -37589,7 +37613,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR063")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -37605,7 +37629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd405114-7bcd-4702-8c0d-8e73e896ddfa")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0102"
 			(at 561.34 39.37 0)
 			(effects
 				(font
@@ -37655,7 +37679,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR096")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -37671,7 +37695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdf53815-b938-4e94-a325-7e94e7c73029")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 444.5 331.47 90)
 			(effects
 				(font
@@ -37723,7 +37747,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -37739,7 +37763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe011dc8-6db8-43d3-82bd-77209cd74751")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 358.14 312.42 0)
 			(effects
 				(font
@@ -37845,7 +37869,7 @@
 		(instances
 			(project ""
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "U2")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -37861,7 +37885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe162a3b-3902-43c8-afd8-aaf0579894d5")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR054"
 			(at 359.41 151.13 0)
 			(effects
 				(font
@@ -37911,7 +37935,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR048")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -37989,7 +38013,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 68.58 0)
+		(at 193.04 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37997,8 +38021,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff15f78-68f3-42eb-ae99-95d0e2b2b8b7")
-		(property "Reference" "#PWR099"
-			(at 193.04 74.93 0)
+		(property "Reference" "#PWR020"
+			(at 193.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38007,7 +38031,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 73.66 0)
+			(at 193.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38015,7 +38039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 68.58 0)
+			(at 193.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38024,7 +38048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 68.58 0)
+			(at 193.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38033,7 +38057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 68.58 0)
+			(at 193.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38047,7 +38071,7 @@
 		(instances
 			(project "hopper"
 				(path "/ca4989ed-9142-45f8-a0ff-36cb76790362"
-					(reference "#PWR099")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
