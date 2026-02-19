@@ -32871,7 +32871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "27p"
 			(at 111.76 287.0199 0)
 			(effects
 				(font
@@ -33423,7 +33423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "27p"
 			(at 91.44 287.0199 0)
 			(effects
 				(font
