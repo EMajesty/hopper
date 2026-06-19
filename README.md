@@ -1,4 +1,4 @@
-[STM32H745II](https://www.st.com/resource/en/datasheet/stm32h745ii.pdf)
+[STM32H750VB](https://www.st.com/resource/en/datasheet/stm32h750vb.pdf)
 
 [PCM3060](https://www.ti.com/lit/ds/symlink/pcm3060.pdf?ts=1771415639587&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FPCM3060)
 
